@@ -3,14 +3,24 @@ html {
     font-family: Verdana;
     text-align: center;
 }
-h1 {
+
+h1,
+h2 {
     color: white;
+}
+
+h1 {
     font-size: 50px;
     font-weight: normal;
 }
 
+h2 {
+    
+}
+
 p {
-    color: white;
+    font-size: 21px;
+    color: gray
 }
 
 .bigtitle {
@@ -34,3 +44,7 @@ a:visited {
 a:hover {
     color: hotpink;
   }
+
+.copyright {
+    text-align: right;
+}
